@@ -1,3 +1,149 @@
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+  padding-top: 20px;
+}
+@media only screen and (min-width: 350px) {
+  .header-nav {
+    margin: 2% 2%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-nav {
+    margin: 3% 3%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header-nav {
+    margin: 5% 5%;
+  }
+}
+.header-nav__links {
+  display: flex;
+  width: 33%;
+  justify-content: space-around;
+}
+@media only screen and (min-width: 350px) {
+  .header-nav__links {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-nav__links {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header-nav__links {
+    width: 33%;
+  }
+}
+.header-nav__links--active {
+  width: 50%;
+  color: #ff6060;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 500;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 350px) {
+  .header-nav__links--active {
+    font-size: small;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-nav__links--active {
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header-nav__links--active {
+    font-size: large;
+  }
+}
+.header-nav__links--inactive {
+  width: 50%;
+  color: #ff6060;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 350px) {
+  .header-nav__links--inactive {
+    font-size: small;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-nav__links--inactive {
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header-nav__links--inactive {
+    font-size: large;
+  }
+}
+.header-nav__logo {
+  height: 47px;
+}
+@media only screen and (min-width: 350px) {
+  .header-nav__logo {
+    height: 53px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-nav__logo {
+    height: 61px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header-nav__logo {
+    height: 68px;
+  }
+}
 
+.footer {
+  bottom: 0;
+  width: 100%;
+  background: #000;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .footer {
+    justify-content: end;
+  }
+}
+.footer__copyrights {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
+@media only screen and (min-width: 350px) {
+  .footer__copyrights {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .footer__copyrights {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer__copyrights {
+    font-size: 24px;
+  }
+}
 
 /*# sourceMappingURL=App.css.map */

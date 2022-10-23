@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/location" element={<Location />} />
+        <Route path="/locations/:locationId" element={<Location />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer/>

@@ -11,7 +11,7 @@ function Home() {
             <div className="home__banner">
                 <HomeBanner  image={background_cover_home} title={title} />
             </div>
-
+                
             <section className="home__gallery">
                 {locations.map((location) => {
                     return (

@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  min-height: 100vh;
+}
+
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -488,6 +499,81 @@
     margin: 1%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+.error {
+  color: #ff6060;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .error {
+    height: 725px;
+  }
+}
+.error__description {
+  margin: 0 40px;
+  text-align: center;
+}
+.error__code {
+  font-size: 96px;
+  font-weight: 700;
+  margin: 0;
+}
+@media only screen and (min-width: 350px) {
+  .error__code {
+    font-size: 160px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .error__code {
+    font-size: 224px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .error__code {
+    font-size: 288px;
+  }
+}
+.error__message {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 10px;
+}
+@media only screen and (min-width: 350px) {
+  .error__message {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .error__message {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .error__message {
+    font-size: 36px;
+  }
+}
+.error__link {
+  color: #ff6060;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 133px;
+}
+@media only screen and (min-width: 768px) {
+  .error__link {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .error__link {
+    font-size: 18px;
   }
 }
 

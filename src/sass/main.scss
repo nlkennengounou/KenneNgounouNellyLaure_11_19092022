@@ -1,11 +1,15 @@
 @import "./mixins";
 @import "./variables";
+@import "./base";
 
 @import "./header";
 @import "./footer";
 @import "./homeBanner";
 @import "./home";
 @import "./locationCard";
+
 @import "./banner";
 @import "./collapse";
 @import "./about";
+
+@import "./error404";
